@@ -20,7 +20,11 @@ ENV NUGET_XMLDOC_MODE=
 
 RUN apt-get update && apt-get install -y openssh-client \
     # Install Azure CLI, see: https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt
-    apt-transport-https ca-certificates curl gnupg lsb-release \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release \
     bats \
     git \
     wget && \
