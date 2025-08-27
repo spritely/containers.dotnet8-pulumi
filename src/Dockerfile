@@ -42,7 +42,7 @@ RUN apt-get update && apt-get install -y openssh-client \
     && apt-get update && apt-get install -y azure-cli=${AZ_VER}-1~${AZ_DIST} \
     # Install Pulumi CLI, see: https://www.pulumi.com/docs/install/
     # To find a new version check this page: https://www.pulumi.com/docs/install/versions/
-    && curl -fsSL https://get.pulumi.com | sh -s -- --version 3.189.0
+    && curl -fsSL https://get.pulumi.com | sh -s -- --version 3.191.0
 
 ENV PATH="/root/.pulumi/bin:${PATH}"
 
