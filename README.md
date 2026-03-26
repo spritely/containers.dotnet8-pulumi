@@ -1,4 +1,7 @@
-# containers.dotnet8-pulumi
+﻿# containers.dotnet8-pulumi
+
+This devcontainer is no longer supported. Upgrade to containers.dotnet10. Archived on 2026-03-26.
+
 Creates a devcontainer with dotnet 8 and Pulumi preinstalled.
 
 Published container is available from: https://hub.docker.com/repository/docker/spritelydev/dotnet8-pulumi-devcontainer
